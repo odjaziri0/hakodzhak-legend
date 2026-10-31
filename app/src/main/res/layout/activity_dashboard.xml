@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:padding="20dp">
+    <TextView android:id="@+id/header" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="🔥 HAKODZHAK ULTIMATE 🔥" android:textColor="@color/red_neon"
+        android:textSize="24sp" android:textStyle="bold" android:gravity="center" android:layout_marginBottom="30dp"/>
+    <Button android:id="@+id/btn_format" android:layout_width="match_parent" android:layout_height="80dp"
+        android:layout_below="@id/header" android:backgroundTint="@color/red_dark" android:text="💥 فرمتة الهاتف"
+        android:textColor="@color/white" android:textSize="20sp" android:textStyle="bold" android:layout_marginBottom="20dp"/>
+    <Button android:id="@+id/btn_kill" android:layout_width="match_parent" android:layout_height="80dp"
+        android:layout_below="@id/btn_format" android:backgroundTint="#1A1A1A" android:text="💀 حذف الفيروس"
+        android:textColor="@color/red_neon" android:textSize="20sp" android:textStyle="bold"/>
+</RelativeLayout>
